@@ -1,23 +1,79 @@
-<html > 
-<head > 
-<meta charset="utf-8" >
- <title >蕾蕾我爱你</title> 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" > 
-<meta name="description" content="This is public for smart home develop." > 
-<meta property="og:type" content="website" > 
-<meta property="og:url" content="http://oyhldsg.github.io/index.html" > 
-<meta property="og:description" content="This is public for smart home develop." > 
-</head> 
-<body > 	
-<div align="center" > 	 	
-<h1 >我俩天生就有缘</h1> <br > 
-<h1 >爱情月老红线牵 </h1> <br >
- <h1 >刘海弯弯额前挂</h1> <br > 
-<h1 >蕾蕊初绽醉心田</h1> <br >
-<h2>备注：这是一首新诗，接下来的每一句话我都会负责♡♡♡^_^</h2><br>
- <h1 >没遇到你之前，我没想过结婚，遇见你，结婚这事我没想过要和别人。</h1> <br >
- <h1 > 我只想陪你走很长很长的岁月，最后化成你眼梢眉角间的一道皱纹。</h1> <br > <br > <br > <br > 
-<h1 >♡♡♡蕾蕾嫁给我吧！！！♡♡♡</h1>
-</div> 
-</body> 
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>蕾蕾嫁给我吧</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+        @font-face {
+            font-family: digit;
+            src: url('digital-7_mono.ttf') format("truetype");
+        }
+    </style>
+    <link href="style/default.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="style/jquery.js"></script>
+    <script type="text/javascript" src="style/garden.js"></script>
+    <script type="text/javascript" src="style/functions.js"></script>
+</head>
+
+<body>
+    <div id="mainDiv">
+        <div id="content">
+            <div id="code">
+                <span class="space"/><span class="keyword"><h2>我俩天生就有缘</h2></span><br />
+                <span class="space"/><span class="keyword"><h2>爱情月老红线牵</h2></span><br />
+                <span class="space"/><span class="keyword"><h2>刘海弯弯额前挂</h2></span><br />
+                <span class="space"/><span class="keyword"><h2>蕾蕊初绽醉心田</h2></span><br />
+                <span class="space"/><span class="comments">备注：这首诗跟之前那个不一样哦^_^</span><br />
+                <span class="space"/><span class="comments"><h2>没遇到你之前，我没想过结婚，遇见你，结婚这事我没想过要和别人。</h2></span><br />
+                <span class="space"/><span class="comments"><h2>我只想陪你走很长很长的岁月，最后化成你眼梢眉角间的一道皱纹。</h2></span><br />
+            </div>
+            <div id="loveHeart">
+                <canvas id="garden"></canvas>
+                <div id="words">
+                    <div id="messages">
+						蕾蕾嫁给我吧！！！
+                        <div id="elapseClock" style="display:none"></div>
+                        <a href='#' id="accept">click me if accept me</a>
+                    </div>
+                    <div id="loveu">
+                        爱你直到永远<br/>
+                        <div class="signature">- 海龙</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var offsetX = $("#loveHeart").width() / 2;
+        var offsetY = $("#loveHeart").height() / 2 - 55;
+        
+        if (!document.createElement('canvas').getContext) {
+            var msg = document.createElement("div");
+            msg.id = "errorMsg";
+            msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+            document.body.appendChild(msg);
+            $("#code").css("display", "none")
+            $("#copyright").css("position", "absolute");
+            $("#copyright").css("bottom", "10px");
+            document.execCommand("stop");
+        } else {
+            setTimeout(function () {
+                adjustWordsPosition();
+                startHeartAnimation();
+            }, 10000);
+            
+            $("#accept").click(function(){
+                $(this).hide();
+                $("#elapseClock").show();
+                var together = new Date();
+                timeElapse(together);
+                setInterval(function () {
+                    timeElapse(together);
+                }, 500);
+            })
+            adjustCodePosition();
+            $("#code").typewriter();
+        }
+    </script>
+</body>
 </html>
