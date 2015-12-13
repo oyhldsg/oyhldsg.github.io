@@ -15,7 +15,7 @@
     <script type="text/javascript" src="style/functions.js"></script>
 </head>
 
-<body>
+<body onLoad="displaytime()">
     <div id="mainDiv">
         <div id="content">
             <div id="code">
@@ -32,8 +32,8 @@
                 <div id="words">
                     <div id="messages">
 						蕾蕾嫁给我吧！！！
-                        <div id="elapseClock" style="display:none"></div>
-                        <a href='#' id="accept">click me if accept me</a>
+                        <div id="elapseClock" style="display:block"></div>
+                        
                     </div>
                     <div id="loveu">
                         爱你直到永远<br/>
@@ -63,20 +63,22 @@
             setTimeout(function () {
                 adjustWordsPosition();
                 startHeartAnimation();
-            }, 10000);
+            }, 8000);
             
-            $("#accept").click(function(){
-                $(this).hide();
-                $("#elapseClock").show();
-                var together = new Date();
-                timeElapse(together);
-                setInterval(function () {
-                    timeElapse(together);
-                }, 500);
-            })
+            
             adjustCodePosition();
             $("#code").typewriter();
         }
+		function displaytime(){
+			setTimeout(function () {
+				$("#elapseClock").show();
+				var together = new Date("2015/12/6");
+				timeElapse(together);
+				setInterval(function () {
+					timeElapse(together);
+				}, 500);
+				}, 11000);
+		}
     </script>
 </body>
 </html>
