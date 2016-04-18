@@ -3,9 +3,9 @@
   <title><![CDATA[Z-home+]]></title>
   <subtitle><![CDATA[Smart Home Page]]></subtitle>
   <link href="atom.xml" rel="self"/>
-  <link href="http://www.zhomeplus.com/hlgeek/"/>
+  <link href="http://www.zhomeplus.com/"/>
   <updated>2015-12-15T07:23:16.645Z</updated>
-  <id>http://www.zhomeplus.com/hlgeek/</id>
+  <id>http://www.zhomeplus.com/</id>
   
   <author>
     <name><![CDATA[Hailong Ouyang]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[智能家居初创公司问题索引]]></title>
-    <link href="http://www.zhomeplus.com/hlgeek/2015/12/14/znjjwtsy/"/>
-    <id>http://www.zhomeplus.com/hlgeek/2015/12/14/znjjwtsy/</id>
+    <link href="http://www.zhomeplus.com/2015/12/14/znjjwtsy/"/>
+    <id>http://www.zhomeplus.com/2015/12/14/znjjwtsy/</id>
     <published>2015-12-14T09:23:12.000Z</published>
     <updated>2015-12-15T07:23:16.645Z</updated>
     <content type="html"><![CDATA[<h4 id="公司为客户提供_SaaS_服务，需要_ICP_经营许可证吗？"><a href="http://www.zhihu.com/question/20661433" target="_blank">公司为客户提供 SaaS 服务，需要 ICP 经营许可证吗？</a></h4><h4 id="非财会出身的老板应该懂得哪些财务知识？"><a href="http://www.zhihu.com/question/24859069" target="_blank">非财会出身的老板应该懂得哪些财务知识？</a></h4><h4 id="天使投资人是怎么投资的？"><a href="http://www.zhihu.com/question/23641467" target="_blank">天使投资人是怎么投资的？</a></h4><h4 id="中国O2O创业公司分为几大派系？"><a href="http://www.zhihu.com/question/28697704" target="_blank">中国O2O创业公司分为几大派系？</a></h4><h4 id="追债的人一般使用什么方法？"><a href="http://www.zhihu.com/question/20581244" target="_blank">追债的人一般使用什么方法？</a></h4><h4 id="作为一个_VC_行业新人，如何系统学习这个行业的知识，建立自己的投资逻辑？"><a href="http://www.zhihu.com/question/31476274" target="_blank">作为一个 VC 行业新人，如何系统学习这个行业的知识，建立自己的投资逻辑？</a></h4><h4 id="怎样的家居设计可以让老人的生活更加方便舒适？"><a href="http://www.zhihu.com/question/23890218" target="_blank">怎样的家居设计可以让老人的生活更加方便舒适？</a></h4><h4 id="初级硬件创业团队如何从头开始管理好供应链？"><a href="http://www.zhihu.com/question/22131744" target="_blank">初级硬件创业团队如何从头开始管理好供应链？</a></h4><a id="more"></a>
@@ -27,14 +27,14 @@
     
     </summary>
     
-      <category term="其它" scheme="http://www.zhomeplus.com/hlgeek/tags/%E5%85%B6%E5%AE%83/"/>
+      <category term="其它" scheme="http://www.zhomeplus.com/tags/%E5%85%B6%E5%AE%83/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[辨析 Sass 中的 Map 和 List]]></title>
-    <link href="http://www.zhomeplus.com/hlgeek/2015/10/21/demo/"/>
-    <id>http://www.zhomeplus.com/hlgeek/2015/10/21/demo/</id>
+    <link href="http://www.zhomeplus.com/2015/10/21/demo/"/>
+    <id>http://www.zhomeplus.com/2015/10/21/demo/</id>
     <published>2015-10-21T02:34:12.000Z</published>
     <updated>2015-11-27T10:04:30.227Z</updated>
     <content type="html"><![CDATA[<p>如果你使用过 Sass 3.3 之前的版本，那么你一定对那段时光颇有感触，那时候没有现如今这么好的条件，那时候的 Map 还只能用多重列表（lists of list）来模拟。多重列表可以实现复杂数据的嵌套定义，但却不是以键值对的形式实现的，所有当我们需要获取其中特定的某一项时就会比较麻烦。Map 这种数据类型天生就是基于键值对的形式，非常便于组织数据。</p>
@@ -124,7 +124,7 @@
     
     </summary>
     
-      <category term="css" scheme="http://www.zhomeplus.com/hlgeek/tags/css/"/>
+      <category term="css" scheme="http://www.zhomeplus.com/tags/css/"/>
     
   </entry>
   
