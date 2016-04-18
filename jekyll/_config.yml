@@ -1,8 +1,8 @@
 menu:
-    home: /hlgeek/
-    blog: /hlgeek/archives/
-    rss: /hlgeek/atom.xml
-    mypage: http://www.zhomeplus.com/hlgeek/mypage_cn.html
+    home: /
+    blog: /archives/
+    rss: /atom.xml
+    mypage: http://www.zhomeplus.com/mypage_cn.html
 
 favicon: /favicon.png
 
@@ -13,5 +13,5 @@ selfIntro:
     title: 风中陀螺
     content: 当你没有借口的那一刻，就是你成功的开始。
     social:
-        zhomeplus: http://www.zhomeplus.com/hlgeek/
+        zhomeplus: http://www.zhomeplus.com/
         weibo: http://weibo.com/cldesign
