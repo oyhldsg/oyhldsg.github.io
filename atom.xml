@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Smart Home Page]]></subtitle>
   <link href="atom.xml" rel="self"/>
   <link href="http://www.zhomeplus.com/"/>
-  <updated>2016-04-19T07:52:39.982Z</updated>
+  <updated>2016-04-20T05:53:45.687Z</updated>
   <id>http://www.zhomeplus.com/</id>
   
   <author>
@@ -13,6 +13,66 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[软件开发外包]]></title>
+    <link href="http://www.zhomeplus.com/2016/04/19/softwareservice/"/>
+    <id>http://www.zhomeplus.com/2016/04/19/softwareservice/</id>
+    <published>2016-04-19T09:40:12.000Z</published>
+    <updated>2016-04-20T05:53:45.687Z</updated>
+    <content type="html"><![CDATA[<h2 id="To_Do_…">To Do …</h2>]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="To_Do_…">To Do …</h2>]]>
+    </summary>
+    
+      <category term="Zhome" scheme="http://www.zhomeplus.com/tags/Zhome/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[智能家居方案定制]]></title>
+    <link href="http://www.zhomeplus.com/2016/04/19/smarthomediy/"/>
+    <id>http://www.zhomeplus.com/2016/04/19/smarthomediy/</id>
+    <published>2016-04-19T09:35:12.000Z</published>
+    <updated>2016-04-20T05:53:14.040Z</updated>
+    <content type="html"><![CDATA[<h2 id="To_Do_…">To Do …</h2>]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="To_Do_…">To Do …</h2>]]>
+    </summary>
+    
+      <category term="Zhome" scheme="http://www.zhomeplus.com/tags/Zhome/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[智能硬件]]></title>
+    <link href="http://www.zhomeplus.com/2016/04/19/smartdevices/"/>
+    <id>http://www.zhomeplus.com/2016/04/19/smartdevices/</id>
+    <published>2016-04-19T09:28:12.000Z</published>
+    <updated>2016-04-20T05:52:36.623Z</updated>
+    <content type="html"><![CDATA[<h2 id="To_Do_…">To Do …</h2>]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="To_Do_…">To Do …</h2>]]>
+    </summary>
+    
+      <category term="Zhome" scheme="http://www.zhomeplus.com/tags/Zhome/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[360°技术支持]]></title>
+    <link href="http://www.zhomeplus.com/2016/04/19/360support/"/>
+    <id>http://www.zhomeplus.com/2016/04/19/360support/</id>
+    <published>2016-04-19T09:23:12.000Z</published>
+    <updated>2016-04-20T05:51:38.544Z</updated>
+    <content type="html"><![CDATA[<h2 id="To_Do_…">To Do …</h2>]]></content>
+    <summary type="html">
+    <![CDATA[<h2 id="To_Do_…">To Do …</h2>]]>
+    </summary>
+    
+      <category term="Zhome" scheme="http://www.zhomeplus.com/tags/Zhome/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Markdown 语法说明 (简体中文版)]]></title>
